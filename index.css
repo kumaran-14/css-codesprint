@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --sky-color: #2E9FC1;
+  --secondary-color: #55B8BA;
+  --shade-color:#3C93A6;
+  --test1: #111;
+  --test2: #123097;
+}
+
+html {
+  height: 100%;
+  width:100%;
+  background: var(--test1);
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  padding: 0;
+  margin:0;
+  background: var(--test1);
+}
+.card {
+  width: 85%;
+  height: 85%;
+  background-color:var(--sky-color);
+}
+
