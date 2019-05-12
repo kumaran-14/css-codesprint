@@ -1,0 +1,25 @@
+.line {
+  width: 100px;
+  border: 1px solid var(--secondary-border);
+  position: absolute;
+}
+
+.line1 {
+  top: 38%;
+  left: 13%;
+}
+
+.line2 {
+  top: 45%;
+  left: 33%;
+}
+
+.line3 {
+  top: 54%;
+  left: 56%;
+}
+
+.line4 {
+  top: 15%;
+  left: 71%;
+}

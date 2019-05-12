@@ -1,0 +1,161 @@
+/* Sun */
+.sun {
+  height: 2em;
+  width: 2em;
+  border-radius: 1em;
+  border: 2px solid var(--border);
+  position: absolute;
+  left: 30%;
+  top: 10%;
+  background-color: var(--sun-color);
+  z-index: 5;
+}
+
+.sun-spinner {
+  height: .1em;
+  width: .6em;
+  position: absolute;
+  top: .9em;
+  left: -.85em;
+  background-color: var(--sun-color);
+  border: 1.5px solid var(--border);
+  -webkit-transform-origin: 100% 0;
+  -moz-transform-origin: 100% 0;
+  -ms-transform-origin: 100% 0;
+  -o-transform-origin: 100% 0;
+  transform-origin: 280% 0;
+
+}
+
+
+.rect1 {
+  transform: rotateZ(30deg);
+  animation: rotate1 2000ms infinite linear;
+}
+
+@keyframes rotate1 {
+  100% {
+    transform: rotateZ(390deg);
+  }
+}
+
+.rect2 {
+  transform: rotateZ(60deg);
+  animation: rotate2 2000ms infinite linear;
+}
+
+@keyframes rotate2 {
+  100% {
+    transform: rotateZ(420deg);
+  }
+}
+
+.rect3 {
+  transform: rotateZ(90deg);
+  animation: rotate3 2000ms infinite linear;
+}
+
+@keyframes rotate3 {
+  100% {
+    transform: rotateZ(450deg);
+  }
+}
+
+.rect4 {
+  transform: rotateZ(120deg);
+  animation: rotate4 2000ms infinite linear;
+}
+
+@keyframes rotate4 {
+  100% {
+    transform: rotateZ(480deg);
+  }
+}
+
+.rect5 {
+  transform: rotateZ(150deg);
+  animation: rotate5 2000ms infinite linear;
+}
+
+@keyframes rotate5 {
+  100% {
+    transform: rotateZ(510deg);
+  }
+}
+
+.rect6 {
+  transform: rotateZ(180deg);
+  animation: rotate6 2000ms infinite linear;
+}
+
+@keyframes rotate6 {
+  100% {
+    transform: rotateZ(540deg);
+  }
+}
+
+.rect7 {
+  transform: rotateZ(-30deg);
+  animation: rotate7 2000ms infinite linear;
+}
+
+@keyframes rotate7 {
+  100% {
+    transform: rotateZ(330deg);
+  }
+}
+
+.rect8 {
+  transform: rotateZ(-60deg);
+  animation: rotate8 2000ms infinite linear;
+}
+
+@keyframes rotate8 {
+  100% {
+    transform: rotateZ(300deg);
+  }
+}
+
+.rect9 {
+  transform: rotateZ(-90deg);
+  animation: rotate9 2000ms infinite linear;
+}
+
+@keyframes rotate9 {
+  100% {
+    transform: rotateZ(270deg);
+  }
+}
+
+.rect10 {
+  transform: rotateZ(-120deg);
+  animation: rotate10 2000ms infinite linear;
+}
+
+@keyframes rotate10 {
+  100% {
+    transform: rotateZ(240deg);
+  }
+}
+
+.rect11 {
+  transform: rotateZ(-150deg);
+  animation: rotate11 2000ms infinite linear;
+}
+
+@keyframes rotate11 {
+  100% {
+    transform: rotateZ(210deg);
+  }
+}
+
+.rect12 {
+  transform: rotateZ(0deg);
+  animation: rotate12 2000ms infinite linear;
+}
+
+@keyframes rotate12 {
+  100% {
+    transform: rotateZ(360deg);
+  }
+}

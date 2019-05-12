@@ -1,0 +1,90 @@
+/* Clouds */
+
+.cloud {
+  width: 300px;
+  height: 100px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cloud-1 {
+  top: 50px;
+  left: 200px;
+}
+
+.cloud-2 {
+  top: 99px;
+  left: 623px;
+  width: 438px;
+  height: 150px;
+}
+
+.step {
+  width: 100%;
+  border: 3px solid var(--secondary-border);
+}
+
+.step1 {
+  height: 34%;
+  width: 21%;
+  border-radius: 70px 70px 0px 0px;
+  margin-left: 30%;
+  border-bottom: none;
+}
+
+.step2 {
+  height: 30%;
+  width: 38%;
+  margin-left: 22%;
+  border-radius: 60px 60px 0px 0px;
+  border-top: none;
+  border-bottom: none;
+}
+
+.step3 {
+  height: 40%;
+  border-radius: 90px 81px 0px 0px;
+  border-top: none;
+  width: 60%;
+  margin-left: 10%;
+}
+
+@media (max-width: 740px) {
+  .cloud {
+    width: 166px;
+    height: 60px;
+  }
+
+  .cloud-1 {
+    top: 46px;
+    left: 85px;
+  }
+
+  .cloud-2 {
+    top: 105px;
+    left: 379px;
+    width: 232px;
+    height: 90px;
+  }
+}
+
+@media (min-width: 740px) and (max-width: 1080px) {
+  .cloud {
+    width: 166px;
+    height: 60px;
+  }
+
+  .cloud-1 {
+    top: 46px;
+    left: 85px;
+  }
+
+  .cloud-2 {
+    top: 105px;
+    left: 60%;
+    width: 232px;
+    height: 90px;
+  }
+}
