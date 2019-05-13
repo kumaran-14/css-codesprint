@@ -1,0 +1,65 @@
+/* Shrubs */
+
+.shrub {
+  position: absolute;
+  bottom: 0;
+  background: #55B8BA;
+  border: 3px solid #98CACA;
+  border-radius: 200px 200px 0px 0px;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}
+
+.shrub1 {
+  left: 0px;
+  height: 30px;
+  width: 50px;
+}
+
+.shrub2 {
+  left: 49px;
+  height: 17px;
+  width: 29px;
+
+}
+.shrub3 {
+  left: 76px;
+  height: 55px;
+  width: 100px;
+
+}
+.shrub4 {
+  left: 172px;
+  height: 40px;
+  width: 80px;
+}
+
+.shrub5 {
+  right: 0px;
+  height: 30px;
+  width: 50px;
+}
+
+.shrub6 {
+  right: 49px;
+  height: 17px;
+  width: 29px;
+
+}
+.shrub7 {
+  right: 76px;
+  height: 55px;
+  width: 100px;
+
+}
+.shrub8 {
+  right: 172px;
+  height: 40px;
+  width: 80px;
+}
+
+
+
+
+
