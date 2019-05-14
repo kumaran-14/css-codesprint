@@ -5,6 +5,10 @@
   --sun-color: #F1F198;
   --border: #F6FFE4;
   --secondary-border: #a1e1e7;
+  --building1-border: #846795;
+  --building1-color: #F6ECE0;
+  --building2-border: #2C404F;
+  --building3-border: #464850;
   --test1: #111;
   --test2: #123097;
 }
@@ -36,6 +40,6 @@ body {
   position: relative;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   background-color: var(--sky-color);
 }
