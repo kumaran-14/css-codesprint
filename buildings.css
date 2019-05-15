@@ -10,12 +10,11 @@
   /* border : 3px solid var(--test2); */
 }
 
+/* Building 1 */
 .building1 {
   height: 85px;
   width: 60px;
-  left: 0;
   flex: 1 1 26%;
-  /* border: 2px solid var(--test1); */
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -101,57 +100,140 @@
 
 .b1-f2-section {
   width: 6.25%;
-  border-right: 1px solid var(--building1-border);
+  border-right: 2px solid var(--building1-border);
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Building 2 */
 
 .building2 {
-  height: 200px;
+  height: 110px;
   width: 60px;
   flex: 1 1 13%;
-  /* border: 2px solid var(--test1) */
+  /* border: 2px solid var(--test1); */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
+
+.b2-floor2 {
+  width:100%;
+  height: 28%;
+  border: 5px solid var(--building1-border);
+  border-right: none;
+  border-bottom: none;
+  background: var(--building1-color);
+  display: flex;
+}
+
+.b2-f2-section {
+  width: 11.11%;
+  border-right: 2px solid var(--building1-border);
+}
+
+.b2-floor1 {
+  width:100%;
+  height: 10%;
+  border-left: 5px solid var(--building1-border);
+  border-top: 2px solid var(--building1-border);
+  border-bottom: 2px solid var(--building1-border);
+  background: var(--building1-color);
+  display: flex;
+}
+
+.b2-f1-section {
+  width: 33.3%;
+  border-right: 2px solid var(--building1-border);
+}
+
+.b2-floor0 {
+  width:100%;
+  height: 62%;
+  border-left: 5px solid var(--building1-border);
+  background: var(--building1-color);
+}
+
+.b2-f0-section1, .b2-f0-section2 {
+  width:100%;
+  height:50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.b2-f0-s1-window,  .b2-f0-s2-window{
+  width: 25%;
+  height: 100%;
+  border-bottom: 4px solid #524A5E;
+  padding-top:15%;
+  margin-bottom:15%
+}
+.b2-f0-s1-upper-window, .b2-f0-s2-upper-window  {
+  margin:auto;
+  width: 65%;
+  height:35%;
+  border: 2px solid #524A5E;
+  border-bottom: none;
+}
+
+.b2-f0-s1-lower-window, .b2-f0-s2-lower-window  {
+  margin:auto;
+  width: 65%;
+  height:65%;
+  border: 2px solid #524A5E;
+  border-bottom: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .building3 {
   height: 200px;
