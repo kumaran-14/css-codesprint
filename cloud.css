@@ -88,3 +88,9 @@
     height: 90px;
   }
 }
+
+@media (max-width: 660px) {
+  .cloud-2 {
+    display: none;
+  }
+}
